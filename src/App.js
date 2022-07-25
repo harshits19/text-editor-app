@@ -41,6 +41,7 @@ function App() {
         mode={mode}
         toggleMode={toggleMode}
       />
+
       {/* <Navbar/>  if we dont pass any props then default props will be displayed*/}
       <Alerts alert={alert} />
       {/* Passing alert(state) into the alert(props of Alerts.js component) */}
